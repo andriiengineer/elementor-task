@@ -2,8 +2,7 @@
 
 **Tech stack:** Playwright, TypeScript, Allure Report, GitHub Actions, GitHub Pages
 
-**Live Allure Report:** [elementor-report.aqapro.com](https://elementor-report.aqapro.com)
-
+**Live Allure Report:** <a href="https://elementor-report.aqapro.com" target="_blank">elementor-report.aqapro.com</a>
 Automated tests for the Elementor contact form.
 
 ---
@@ -13,7 +12,7 @@ Automated tests for the Elementor contact form.
 You don't need anything installed locally — just a browser and access to this repository.
 
 1. Go to the **Actions** tab at the top of the repository page.
-2. In the left sidebar, click **Playwright Tests**.
+2. In the left sidebar, click **Elementor Playwright Tests**.
 3. Click the **Run workflow** button, pick a branch (usually `main`), and hit the green **Run workflow** button.
 4. Wait for the run to finish. You can watch the progress in real time.
 5. Once it's done, you'll see a basic test summary right on the run page in GitHub — how many tests passed, failed, or broke.
@@ -22,7 +21,7 @@ You don't need anything installed locally — just a browser and access to this 
 
 A full Allure report with history of the last 10 runs is automatically published to GitHub Pages on a custom domain:
 
-**https://elementor-report.aqapro.com**
+**<a href="elementor-report.aqapro.com" target="_blank">https://elementor-report.aqapro.com</a>**
 
 The report is also available as a downloadable artifact (`allure-report`) on every workflow run.
 
@@ -32,8 +31,8 @@ The report is also available as a downloadable artifact (`allure-report`) on eve
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (LTS version) with npm
-- [Allure CLI](https://allurereport.org/docs/install/) — only needed if you want to generate reports locally
+- <a href="https://nodejs.org/" target="_blank">Node.js</a> (LTS version) with npm
+- <a href="https://allurereport.org/docs/install/" target="_blank">Allure CLI</a> — only needed if you want to generate reports locally
 
 ### Setup
 
