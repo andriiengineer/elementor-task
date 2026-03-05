@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist"
+  },
+  "include": ["tests/**/*.ts", "fixtures/**/*.ts", "data/**/*.ts", "pages/**/*.ts", "playwright.config.ts"]
+}
