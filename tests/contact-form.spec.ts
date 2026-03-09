@@ -5,9 +5,15 @@ import { faker } from '@faker-js/faker';
 
 test.describe('Contact Form', () => {
 
-  const name = faker.person.fullName();
-  const email = faker.internet.email();
-  const message = faker.lorem.sentence();
+  let name: string;
+  let email: string;
+  let message: string;
+
+  test.beforeEach(async () => {
+    name = faker.person.fullName();
+    email = faker.internet.email();
+    message = faker.lorem.sentence();
+  });
 
   test('should submit form successfully', async ({ contactFormPage, page }) => {
     await contactFormPage.fillForm(name, email, message);
